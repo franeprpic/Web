@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Stranica za vj1">
+  <meta name="keywords" content="ključna riječ 1, ključna riječ 2, ključna riječ 3">
+  <meta name="author" content="Frane Prpić">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VJ1</title>
+</head>
+<body>
+  <!-- Sadržaj stranice -->
+</body>
+</html>
