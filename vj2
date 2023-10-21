@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Stranica za vj2">
+  <meta name="keywords" content="ključna riječ 1, ključna riječ 2, ključna riječ 3">
+  <meta name="author" content="Frane Prpić">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naslov stranice</title>
+  <style>
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    nav {
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="putanja/do-slike/banner.jpg" alt="Banner">
+    </div>
+    <nav>
+      <a href="#">Početna stranica</a>
+      <a href="#">Novosti</a>
+      <a href="#">Kontakt</a>
+      <a href="#">O nama</a>
+      <a href="#">Galerija</a>
+    </nav>
+  </header>
+</body>
+</html>
