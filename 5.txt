@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>5</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Frane Prpić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<style>
+			body { margin: 1em; }
+		</style>
+	</head>
+	<body>
+	<h1>Popis mobitela</h1>
+		<table border="1">
+			<tr>
+				<th colspan="2">Samsung</th>
+				<th colspan="2">Apple</th>
+			</tr>
+			<tr>
+				<td><img src="https://cdn.alloallo.media/catalog/product/samsung/galaxy-s/galaxy-s8/galaxy-s8-maple-gold.jpg" alt="mobitel" title="S8" width="20%"></td>
+				<td>Galaxy S8</td>
+				<td><img src="https://images.macrumors.com/t/e0o2RzHJ5cPlD4FgyKQ5jCdSGko=/1600x/article-new/2016/05/iphone8gold.jpg alt="mobitel" title="9" width="20%"></td>
+				<td>Iphone 9</td>
+			</tr>
+			<tr>
+				<td><img src="https://m.media-amazon.com/images/I/51ikUWr9uQL._AC_UF350,350_QL80_.jpg" alt="mobitel" title="S9" width="20%"></td>
+				<td>Galaxy S9</td>
+				<td><img src="https://www.altirand.com/thumb.php?file=Apple%20iPhone%20X%2064GB%20Space%20Grey.jpg&maxw=553&maxh=415 alt="mobitel" title="X" width="20%"></td>
+				<td>Iphone X</td>
+			</tr>
+		</table>
+	<body>
+</html>
