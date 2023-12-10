@@ -1,40 +1,29 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Stranica za vj2">
-  <meta name="keywords" content="ključna riječ 1, ključna riječ 2, ključna riječ 3">
-  <meta name="author" content="Frane Prpić">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Naslov stranice</title>
-  <style>
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-    }
-    nav {
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer HTML Dokumenta sa Slikama</title>
 </head>
 <body>
-  <header>
-    <div>
-      <img src="putanja/do-slike/banner.jpg" alt="Banner">
-    </div>
-    <nav>
-      <a href="#">Početna stranica</a>
-      <a href="#">Novosti</a>
-      <a href="#">Kontakt</a>
-      <a href="#">O nama</a>
-      <a href="#">Galerija</a>
-    </nav>
-  </header>
+
+    <!-- Naslov -->
+    <h1>Ovo je naslov</h1>
+
+    <!-- Podnaslov -->
+    <h2>Ovo je podnaslov</h2>
+
+    <!-- Prva slika s apsolutnom putanjom -->
+    <img src="apsolutna_putanja/do/slike/slika.jpg" alt="Opis prve slike">
+
+    <!-- Druga slika s relativnom putanjom -->
+    <img src="relativna_putanja/do/slike/slika.jpg" alt="Opis druge slike">
+
+    <!-- Prvi odlomak -->
+    <p>Ovo je prvi odlomak teksta. Možete ovde dodati više informacija ili opisa.</p>
+
+    <!-- Drugi odlomak -->
+    <p>Ovo je drugi odlomak teksta. Dodajte željeni sadržaj kako biste upotpunili svoj dokument.</p>
+
 </body>
 </html>
