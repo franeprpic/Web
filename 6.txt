@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+<head>
+    <title>Programiranje web aplikacija</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Frane Prpić">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+<h2>Uređena lista</h2>
+<ol>
+    <li>Samsung</li>
+    <li>Apple</li>
+    <li>Huawei</li>
+    <li>Panasonic</li>
+    <li>Motorola</li>
+</ol>
+
+<h2>Neuređena lista</h2>
+<ul>
+    <li>Samsung</li>
+    <li>Apple</li>
+    <li>Huawei</li>
+    <li>Panasonic</li>
+    <li>Motorola</li>
+</ul>
+
+<h2>Ugnježdena  lista</h2>
+<ol>
+    <li>Samsung
+        <ul>
+            <li>Galaxy S23 Ultra</li>
+            <li>Galaxy S23+</li>
+            <li>Galaxy S23</li>
+            <li>Galaxy Z fold 5</li>
+            <li>Galaxy Z flip 5</li>
+        </ul>
+    </li>
+
+    <li>Apple
+        <ul>
+            <li>Iphone 12</li>
+            <li>Iphone 13</li>
+            <li>Iphone 14 plus</li>
+            <li>Iphone 15 Pro</li>
+        </ul>
+    </li>
+</ol>
+
+</body>
+</html>
