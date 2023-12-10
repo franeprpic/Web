@@ -180,7 +180,7 @@
 		</section>
 	</main>
 	<footer>
-		&copy; Mateo Ljevar
+		&copy; Frane Prpić
 	</footer>
 </body>
 </html>
