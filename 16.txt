@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Programiranje web aplikacija</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Frane Prpić">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">		<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		h1, p { margin: 0; padding: 0; margin-bottom: 10px; }
+		body { margin: 0 auto; width: 75%; 
+			font-family: 'Titillium Web', sans-serif;
+			background-color:black;
+			}
+		figure {
+			width: 50%;
+			border: 0px solid white;
+			float: left;
+			margin: 0;
+			padding: 0;
+			margin-right; 4%; }
+		figure img { width: 100%; }
+		h1, p { color: white; }
+		figure { border: 0px solid white; }
+	</style>
+</head>
+<body style="background-color:black">
+	<h1>Luxury watch</h1>
+	<figure>
+		<img src="sat.jpg">
+	</figure>
+	<p>Stainless steel case with a stainless steel bracelet. Uni-directional rotating silver-tone stainless steel bezel with a blackceramic top ring. Black dial with luminous skeleton hands and dot hour markers. Minute markers around the outer rim. Dial Type: Analog. Luminescent hands and markers. Date display at the 6 o'clock position. Chronograph - three sub-dials displaying: 60 second, 30 minute and 12 hour. Omega calibre 3330 automatic movement with a 52-hour power reserve. Scratch resistant sapphire crystal. Screw down crown. Solid case back. Case size: 44.5 mm. Case thickness: 13 mm. Round case shape. Band width: 22.9 mm. Band length: 9 inches. Deployment clasp. Water resistant at 300 meters / 1000 feet. Functions: chronograph, date, hour, minute, second, chronometer. Additional Info: helium escape valve. Dress watch style. Watch label: Swiss Made. Item Variations: 212 30 44 50 01 001, 212-30-44-50-01-001, 212/30/44/50/01/001, 21230445001001. Omega Seamaster Automatic Chronograph Men's Watch 21230445001001.</p>
+	<video width="100%" controls style="margin-top:10px;">
+		<source src="video.mp4" type="video/mp4">
+	</video>
+</body>
+</html>
