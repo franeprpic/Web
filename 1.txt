@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer HTML Dokumenta</title>
+</head>
+<body>
+
+    <!-- Naslov -->
+    <h1>Ovo je naslov</h1>
+
+    <!-- Podnaslov -->
+    <h2>Ovo je podnaslov</h2>
+
+    <!-- Prvi odlomak -->
+    <p>Ovo je prvi odlomak teksta. Možete ovde dodati više informacija ili opisa.</p>
+
+    <!-- Drugi odlomak -->
+    <p>Ovo je drugi odlomak teksta. Dodajte željeni sadržaj kako biste upotpunili svoj dokument.</p>
+
+</body>
+</html>
