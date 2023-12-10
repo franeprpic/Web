@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer HTML5 Dokumenta sa Slikama</title>
+</head>
+<body>
+
+    <!-- Naslov -->
+    <h1>Ovo je naslov</h1>
+
+    <!-- Podnaslov -->
+    <h2>Ovo je podnaslov</h2>
+
+    <!-- Prva slika s apsolutnom putanjom -->
+    <figure>
+        <a href="apsolutna_putanja/do/slike/slika.jpg" target="_blank">
+            <img src="apsolutna_putanja/do/slike/slika.jpg" alt="Opis prve slike">
+        </a>
+        <figcaption>Opis prve slike</figcaption>
+    </figure>
+
+    <!-- Druga slika s relativnom putanjom -->
+    <figure>
+        <a href="relativna_putanja/do/slike/slika.jpg" target="_blank">
+            <img src="relativna_putanja/do/slike/slika.jpg" alt="Opis druge slike">
+        </a>
+        <figcaption>Opis druge slike</figcaption>
+    </figure>
+
+    <!-- Prvi odlomak -->
+    <p>Ovo je prvi odlomak teksta. Možete ovde dodati više informacija ili opisa.</p>
+
+    <!-- Drugi odlomak -->
+    <p>Ovo je drugi odlomak teksta. Dodajte željeni sadržaj kako biste upotpunili svoj dokument.</p>
+
+</body>
+</html>
