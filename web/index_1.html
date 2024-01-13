@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('dunk.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            text-align: center;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: #000; 
+            color: #fff;
+        }
+
+        header {
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ffd700; 
+        }
+
+        section {
+            padding: 30px 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        input[type="number"] {
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffcc00; 
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: 0;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label, input, button {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DUNK</h1>
+        <nav>
+            <ul>
+                <li><a href="#most-exciting-move">Najzanimljiviji potez u košarci</a></li>
+                <li><a href="#how-high-to-dunk">Koliko moram skočiti da bi zakuco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="most-exciting-move">
+        <h2>Najzanimljiviji potez u košarci</h2>
+        <p>Zakucavanje u košarci predstavlja vrhunski trenutak uzbuđenja i estetike, čineći ga najuzbudljivijim i najzanimljivijim potezom u ovom sportu. Ovaj spektakularan manevar prenosi ne samo snagu i fizičku nadmoć igrača, već i emotivnu silu koja podiže publiku na noge.</p>
+
+        <p>Prvo, zakucavanje je vrhunac sportske snage, zahtevajući visinu, skočnost i impresivnu koordinaciju pokreta. Gledaoci osećaju poštovanje prema igraču koji dominira terenom na taj način, demonstrirajući izuzetne fizičke sposobnosti.</p>
+
+        <p>Osim fizičke snage, zakucavanje je često i umetnost u pokretu. Igrači koriste kreativnost kako bi iznenadili protivničku odbranu, dodajući elemente stila i elegancije. Sposobnost da se snalažljivo zakucavanje izvede u trenutku, kao odgovor na dinamiku igre, čini ovaj potez posebno uzbudljivim.</p>
+
+        <p>Zakucavanje ima moć da promeni tok igre, dodajući emocionalni uticaj na ekipu i navijače. Atmosfera u dvorani eksplodira kada lopta prolazi kroz obruč, podstičući igrače i rasplamsavajući strast navijača.</p>
+
+        <p>Najzad, zakucavanje često simbolizuje trijumf i dominaciju, slavi se kao vrhunski izraz individualnog i timskog uspeha. Taj trenutak je nezaboravan i omiljen među ljubiteljima košarke.</p>
+
+        <p>Ukratko, zakucavanje u košarci ne samo prikazuje fizičku snagu i veštinu igrača, već i stvara emotivnu i spektakularnu dimenziju u svetu sporta. Njegova sposobnost da podigne publiku na noge, promeni dinamiku igre i simbolizuje trijumf čini ga neospornim vrhunskim trenutkom u košarkaškom svetu.</p>
+    </section>
+
+    <section id="how-high-to-dunk">
+        <h2>Koliko moram skočiti da bi zakuco</h2>
+        <div style="margin: 0 auto; max-width: 400px; text-align: left; padding-left: 20px;"> 
+            <label for="reach">Unesite svoj doseg (u cm):</label>
+            <input type="number" id="reach" name="reach" required>
+            <button onclick="calculateDistance()">Izračunaj udaljenost</button>
+            <p id="result"></p>
+            <p id="jumpHeight"></p>
+        </div>
+
+        <p style="text-align: center; padding-left: 20px;">Ako želite ovako zakucavati, unesite svoj email za besplatni program:</p>
+
+       <div style="text-align: center; margin-bottom: 20px;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 560px; margin: 0 auto;">
+        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 75%;" src="https://www.youtube.com/embed/zv4I42kMl8s/enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!		<iframe style="width: 100%; max-width: 560px; height: 420px; margin: 0 auto; display: block;" src="https://www.youtube.com/embed/zv4I42kMl8s" frameborder="0" allowfullscreen></iframe>          >
+
+
+        <form action="./submit-email.php" method="post" onsubmit="return submitForm()" style="text-align: center;">
+    <label for="email" style="display: block; margin-bottom: 10px;">Unesite svoj email kako biste dobili besplatni trening:</label>
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box;">
+    <button type="submit" style="width: 100%; padding: 10px; background-color: #ffd700; color: #000; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">Prijavite se</button>
+</form>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Frane Prpić. Sva prava pridržana.</p>
+    </footer>
+
+    <script>
+        function calculateDistance() {
+            var reach = parseInt(document.getElementById("reach").value);
+            var hoopHeight = 315;
+            var distance = hoopHeight - reach;
+            var jumpHeight = 315 - reach;
+            document.getElementById("result").innerHTML = "Da bi zakucali trebate skočiti do 315cm kako bi bilo prostora da lopta uđe u koš";
+            document.getElementById("jumpHeight").innerHTML = "Potrebna visina skoka: " + jumpHeight + " cm";
+        }
+
+        function submitForm() {
+            const fs = require('fs');
+
+// Assuming 'email' is a variable containing the email data
+let data = 'Email: ' + email;
+
+fs.writeFile('File.txt', data, (err) => {
+    if (err) throw err;
+    console.log('Data written to File.txt');
+});
+
+        }
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>

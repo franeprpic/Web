@@ -1,0 +1,6 @@
+<?php 	
+    $to = $_POST['email'];
+    $subject='Besplatni program';
+    $message='U privitku se nalazi Vaš program';
+    mail($to,$subject,$message);
+?>
